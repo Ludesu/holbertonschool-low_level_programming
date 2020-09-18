@@ -1,19 +1,15 @@
 #include <stdio.h>
 /**
-*main - main function
-*
+*main - maine function
 *Return: 0
 */
 int main(void)
 {
-	char i;
+	unsigned int i;
 
-	for (i = 'a'; i - 1 < 'z'; ++i)
+	for (i = 0; i <= 9; ++i)
 	{
-		if ((i != 'q') && (i != 'e'))
-		{
-			putchar(i);
-		}
+		printf("%i", i);
 	}
 	putchar('\n');
 	return (0);
